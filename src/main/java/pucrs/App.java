@@ -42,6 +42,8 @@ public class App {
                 System.out.println("---------------\n\n");
             }
             System.out.println("Christian was here");
+
+            System.out.println("println da Paula");
         }
     }
 }
