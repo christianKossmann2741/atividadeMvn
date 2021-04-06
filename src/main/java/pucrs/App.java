@@ -21,6 +21,7 @@ public class App {
 
     public static void main(String[] args) throws IOException {
         System.out.println("teste");
+        System.out.println("Gui esteve aqui.");
         try (
             Reader reader = Files.newBufferedReader(Paths.get(SAMPLE_CSV_FILE_PATH));
             CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT);
